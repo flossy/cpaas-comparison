@@ -1,7 +1,7 @@
 {
   "name": "@flossy/cpaas-comparison",
   "description": "CPaaS",
-  "version": "0.1.41",
+  "version": "0.1.42",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
