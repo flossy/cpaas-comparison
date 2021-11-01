@@ -20,7 +20,7 @@
   },
   "license": "ISC",
   "author": "flossy",
-  "main": "./dist/cpaas-comparison.umd.js",
+  "main": "dist/cpaas-comparison.umd.js",
   "files": [
     "dist",
     "src/**/*.vue"
