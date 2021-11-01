@@ -75,3 +75,12 @@ VUE_APP_QB_USER_2_ID=*****
 # SkyWay
 VUE_APP_SW_KEY=*****
 ```
+
+### package build
+
+GithubPackages
+
+```shell
+npm run build-bundle
+npm publish
+```
