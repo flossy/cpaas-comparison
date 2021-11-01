@@ -1,0 +1,62 @@
+{
+  "name": "@flossy/cpaas-comparison",
+  "description": "CPaaS",
+  "version": "0.1.41",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e",
+    "lint": "vue-cli-service lint",
+    "build-bundle": "vue-cli-service build --target lib --name cpaas-comparison --formats umd ./src/cpaas-comparison.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flossy/cpaas-comparison.git"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "license": "ISC",
+  "author": "flossy",
+  "main": "./dist/cpaas-comparison.umd.js",
+  "files": [
+    "dist",
+    "src/**/*.vue"
+  ],
+  "dependencies": {
+    "@vue/composition-api": "^1.2.4",
+    "connectycube": "^3.14.0",
+    "quickblox": "^2.13.10",
+    "skyway-js": "^4.4.2",
+    "vue": "^2.6.11",
+    "vuetify": "^2.4.0"
+  },
+  "devDependencies": {
+    "@mdi/js": "^6.3.95",
+    "@types/jest": "^24.0.19",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "@vue/cli-plugin-e2e-cypress": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-plugin-unit-jest": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "@vue/test-utils": "^1.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "postcss-prefix-selector": "^1.13.0",
+    "prettier": "^2.2.1",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "typescript": "~4.1.5",
+    "vue-cli-plugin-vuetify": "~2.4.3",
+    "vue-property-decorator": "^9.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.7.0"
+  }
+}

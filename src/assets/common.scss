@@ -1,0 +1,51 @@
+::v-deep {
+  .v-application--wrap {
+    min-height: auto;
+  }
+}
+.cpaas-comparison {
+  padding: 10px;
+  text-align: left;
+}
+.stream {
+  width: 100%;
+  height: 360px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#localStream {
+  position: absolute;
+  width: 120px;
+  height: 90px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 0 1px #ccc;
+  background: #000;
+}
+#remoteStream {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  box-shadow: 0 0 0 1px #ccc;
+  background: #000;
+}
+.ctl {
+  position: absolute;
+  bottom: 10px;
+  width: 95%;
+}
+.connection-wrap.ios {
+  #localStream {
+    z-index: -1;
+  }
+  #remoteStream {
+    z-index: -2;
+  }
+  .v-card {
+    background: transparent !important;
+  }
+}
